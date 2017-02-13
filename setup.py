@@ -10,7 +10,7 @@ with open('LICENSE') as f:
 exec(open('loony/version.py').read())
 
 setup(
-    name='sample',
+    name='picsorter',
     version=__version__,
     description='Sample package for Python-Guide.org',
     long_description=readme,
@@ -24,7 +24,7 @@ setup(
     test_suite="nose.collector",
     entry_points={
         'console_scripts': [
-          'sample = sample.main:main',
+          'picsorter = picsorter.main:main',
         ],
       },
       classifiers=[
