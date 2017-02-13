@@ -1,5 +1,4 @@
-Sample Module Repository
-========================
+PicSorter
+=========
 
-This simple project is an example repo for Python projects.
-
+Script to sort Pictures and Videos by date and timestamp.

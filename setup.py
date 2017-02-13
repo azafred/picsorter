@@ -12,11 +12,11 @@ exec(open('loony/version.py').read())
 setup(
     name='picsorter',
     version=__version__,
-    description='Sample package for Python-Guide.org',
+    description='Sorting pictures and Videos by date',
     long_description=readme,
     author='Fred Vassard',
     author_email='azafred@gmail.com',
-    url='https://github.com/azafred/samplemod',
+    url='https://github.com/azafred/picsorter',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=['pyyaml', 'quik', 'pyobjc-framework-Cocoa'],
